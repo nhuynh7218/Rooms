@@ -23,8 +23,9 @@ public class Runner {
 		int y = (int)(Math.random()*building.length);
 		building[x][y] = new WinningRoom(x, y);
 	
+		building[1][1] = new BossRoom(1, 1);
 		
-		building[1][1] = new NicholasRoom(1, 1);
+	
 		 
 		 //Setup player 1 and the input scanner
 		Person player1 = new Person("FirstName", "FamilyName", 0,0);
