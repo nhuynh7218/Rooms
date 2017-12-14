@@ -21,5 +21,10 @@ public class Room {
 		occupant = null;
 	}
 	
+	public static boolean cantMove()
+	{
+		return false;
+		
+	}
 	
 }

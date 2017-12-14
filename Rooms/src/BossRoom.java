@@ -3,6 +3,7 @@ public class BossRoom extends Room {
 
 
 
+
 	public BossRoom(int a, int b) {
 		super(a, b);
 		// TODO Auto-generated constructor stub
@@ -13,8 +14,9 @@ public class BossRoom extends Room {
 		occupant = x;
 		x.setxLoc(this.xLoc);
 		x.setyLoc(this.yLoc);
+	
 		System.out.println("You found a mini-boss");
-		System.out.println("solve his math questions to beat him");
-		
-	}
-}
+		System.out.println("Solve his math questions to beat him");
+
+
+

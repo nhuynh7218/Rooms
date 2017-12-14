@@ -25,6 +25,8 @@ public class Runner {
 	
 		building[1][1] = new BossRoom(1, 1);
 		
+		building[2][2] = new DeathTrap(2,2);
+		
 	
 		 
 		 //Setup player 1 and the input scanner

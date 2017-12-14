@@ -27,6 +27,8 @@ public class Person {
 		this.xLoc = xLoc;
 		this.yLoc = yLoc;
 	}
+	
+		
+	}
 
 
-}
